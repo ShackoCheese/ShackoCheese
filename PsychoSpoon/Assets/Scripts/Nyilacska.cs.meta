@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 89562fe5e51363e41afedf70ea9fb913
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - tanyer: {fileID: 4079974605669261074, guid: c7cd66cb9d28bd04db53a735e6b907f6, type: 3}
+  - player: {fileID: 849605901194725829, guid: 7648a4622ec47d640b618ce0b71be8a1, type: 3}
+  - kamera: {fileID: 4163820101015730087, guid: 3f1ecd6320fc10746aeda55897fa167f, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,4 @@
+repository "PsychoSpoon@ShackOCheese@cloud"
+  path "/"
+    br "/main"
+    co "/main"

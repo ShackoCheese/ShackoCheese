@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2829784017058791322
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2829784017058791321}
+  - component: {fileID: 2829784017814415410}
+  - component: {fileID: 1716525282989076204}
+  - component: {fileID: 2552483666179469843}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: GameController
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2829784017058791321
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2829784017058791322}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.08128223, y: -1.3461045, z: -2.5107954}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2829784017814415410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2829784017058791322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 520e85a82cbaec54bbda54419784a48b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerRigidbody2D: {fileID: 849605901194725827, guid: 7648a4622ec47d640b618ce0b71be8a1, type: 3}
+  platformRigidbody2D: {fileID: 4079974607323190670, guid: c7cd66cb9d28bd04db53a735e6b907f6, type: 3}
+  playerMovementEnabled: 1
+  platformMovementEnabled: 0
+  platfromCameraEnabled: 0
+  Activated_Checkpoint_id: 0
+  offset: {x: 0, y: 1, z: 0}
+  TeleportOffsetY: 0
+  TeleportOffsetX: 0
+  Player: {fileID: 849605901194725829, guid: 7648a4622ec47d640b618ce0b71be8a1, type: 3}
+  spongeCollected: 0
+  MaxSponge: 60
+  Start_GameObject: {fileID: 7727472775724905573, guid: 3ceadc97edeecac46b29062d2578e81a, type: 3}
+  Checkpoint_GameObject: {fileID: 8808884248903790231, guid: 9411974939d8cef4c819915eafbe5f89, type: 3}
+  Checkpoint: {x: 0, y: 0, z: 0}
+  Score: 0
+  Achivement_completegame: 0
+  Achivement_feedback: 0
+  Achivement_spoonflip: 0
+  Achivement_Allsponge: 0
+  Deaths: 0
+  PlayerScore: 0
+  pickedup: 0
+  moveAble: {fileID: 0}
+  isPlateUsed: 0
+--- !u!114 &1716525282989076204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2829784017058791322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98f912097bdfb144ba7c88b1dd34a9b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: 60
+--- !u!114 &2552483666179469843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2829784017058791322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29b68c2e259260e4bb650295b8e64350, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ido: 0
+  maxido: 0

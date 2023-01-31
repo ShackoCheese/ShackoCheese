@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 520e85a82cbaec54bbda54419784a48b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - playerRigidbody2D: {instanceID: 0}
+  - platformRigidbody2D: {instanceID: 0}
+  - Player: {instanceID: 0}
+  - Start_GameObject: {instanceID: 0}
+  - Checkpoint_GameObject: {instanceID: 0}
+  - Tanyer: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
